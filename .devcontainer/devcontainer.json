@@ -1,0 +1,11 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.158.0/containers/ruby-rails
+{
+  "name": "Ruby on Rails",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [2222, 5433, 3000],
+  "remoteUser": "vscode",
+  "postCreateCommand": ".devcontainer/boot.sh"
+}
