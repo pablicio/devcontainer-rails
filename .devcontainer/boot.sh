@@ -17,5 +17,7 @@ echo "Done!"
 # POSTGRESQL_USER='postgres'
 # POSTGRESQL_HOST=postgres
 # POSTGRESQL_PASSWORD='postgres'
-
+# REDIS_URL=redis://redis:6379
 # MESSAGE_BROKER_URL='amqp://guest:guest@rabbitmq:5672'
+# AMZ_MQ_HOST=rabbitmq
+
